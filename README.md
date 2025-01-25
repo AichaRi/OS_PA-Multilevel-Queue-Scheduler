@@ -37,3 +37,36 @@ The program includes a simple user menu:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/multilevel-queue-scheduler.git
+   ```
+2. Compile and run the program:
+   ```bash
+   javac Main.java
+   java Main
+   ```
+
+## Contributions
+This was a project assignment for an **Operating Systems** course. My main contribution was implementing the **Round-Robin (RR) Scheduling Algorithm** for `Q1`. The project was completed collaboratively, with other members working on the SJF algorithm and reporting functionalities.
+
+## Sample Output
+- Example scheduling order:
+  ```
+  [P1 | P2 | P1 | P3]
+  ```
+- Process Report:
+  ```
+  Process ID: P1
+  Priority: 1
+  Arrival Time: 0ms
+  CPU Burst: 5ms
+  Start Time: 0ms
+  Termination Time: 8ms
+  Turnaround Time: 8ms
+  Waiting Time: 3ms
+  Response Time: 0ms
+  ```
+- Overall Metrics:
+  ```
+  Average Turnaround Time: 10ms
+  Average Waiting Time: 5ms
+  Average Response Time: 2ms
+  ```
